@@ -2,7 +2,7 @@ using OrbitService.Game;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.WebHost.UseUrls("http://localhost:6001");
+builder.WebHost.UseUrls("http://0.0.0.0:6001");
 
 builder.Services.AddCors(options =>
 {
